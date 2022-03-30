@@ -53,3 +53,30 @@ console.log('the sum of ' + pirmas + ',' + antras + ' and ' + trecias + ' is: ' 
 const tekstoElementai = (pirmasMenuo + ' ' + antrasMenuo + ' ' + treciasMenuo);
 console.log(tekstoElementai);
 
+//3.Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką 1-2+3-4+5
+const t1 = 15;
+const t2 = 18;
+const t3 = 13;
+const t4 = 18;
+const t5 = 20;
+const verte = t1 - t2 + t3 - t4 + t5;
+console.log('Verte:', verte);
+
+//4.Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
+
+const reversedPavarde = pavarde.reverse();
+console.log(reversedPavarde);
+
+const reversedValstybes = valstybes.reverse();
+console.log(reversedValstybes);
+
+const reversedParduotuves = parduotuves.reverse();
+console.log(reversedParduotuves);
+
+
+
+
+
+
+
+
