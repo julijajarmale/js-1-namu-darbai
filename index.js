@@ -74,7 +74,7 @@ const reversedParduotuves = parduotuves.reverse();
 console.log(reversedParduotuves);
 
 
-
+/* */
 
 
 
