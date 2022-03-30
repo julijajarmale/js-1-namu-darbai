@@ -73,10 +73,93 @@ console.log(reversedValstybes);
 const reversedParduotuves = parduotuves.reverse();
 console.log(reversedParduotuves);
 
+/*
+Kintamųjų palyginimas
+Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
 
-/* */
+Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+kuris didesnis
+kuris mažesnis
+ar jie lygūs
+ar jie nelygūs
+kuris didesnis arba lygus
+kuris mažesnis arba lygus
+Išvesti teksto tipo kintamųjų ilgius
+Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
+kuris didesnis
+kuris mažesnis
+ar jie lygūs
+ar jie nelygūs
+kuris didesnis arba lygus
+kuris mažesnis arba lygus
+Išvesti sąrašo tipo kintamųjų ilgius
+Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
+kuris didesnis
+kuris mažesnis
+ar jie lygūs
+ar jie nelygūs
+kuris didesnis arba lygus
+kuris mažesnis arba lygus
+*/ 
 
+if (pirmas > antras) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
 
+if (antras < trecias) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
 
+if (antras == trecias) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
 
+if (antras != trecias) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
 
+if (antras >= trecias) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
+
+if (pirmas <= trecias) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')
+}
+
+console.log('-----------------------')
+
+const pirmoIlgis = pirmasMenuo.length;
+console.log('raidziu skaicius:', pirmoIlgis);
+
+const antroIlgis = antrasMenuo.length;
+console.log('raidziu skaicius:', antroIlgis);
+
+const trecioIlgis = treciasMenuo.length;
+console.log('raidziu skaicius:', trecioIlgis);
+
+if (trecioIlgis >= antroIlgis) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')};
+
+console.log('-----------------------')
+
+const zmoniuSkaicius = pavarde.length;
+console.log('Dalyviu skaicius:', zmoniuSkaicius);
+
+const valstybiuSkaicius = valstybes.length;
+console.log('Valstybiu skaicius:', valstybiuSkaicius);
+
+const parduotuviuKiekis = parduotuves.length;
+console.log('Parduotuviu:', parduotuviuKiekis);
+
+if (zmoniuSkaicius >= valstybiuSkaicius) {console.log('Pomidoras');
+} 
+else {console.log('Bandykite kitą kartą.')};
+
+console.log('-----------------------')
